@@ -1,0 +1,26 @@
+{
+  "name": "dockerizingnodeapp",
+  "version": "1.0.0",
+  "description": "Basic Node. Js app using Docker for future deployments",
+  "main": "index.js",
+  "scripts": {
+    "build": "node start",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/OsmaniCR/DockerizingNodeApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsmaniCR/DockerizingNodeApp/issues"
+  },
+  "homepage": "https://github.com/OsmaniCR/DockerizingNodeApp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
